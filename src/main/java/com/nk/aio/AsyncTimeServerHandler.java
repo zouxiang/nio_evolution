@@ -22,7 +22,6 @@ public class AsyncTimeServerHandler implements Runnable {
         }
     }
 
-    @Override
     public void run() {
         latch = new CountDownLatch(1);
         doAccept();
